@@ -1,0 +1,27 @@
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 48px;
+    flex-grow: 1;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 48px;
+}
+
+.nav__link-active {
+    color: $accent;
+    font-weight: 700;
+}

@@ -1,0 +1,37 @@
+header {
+    max-height: 1126px;
+    background: linear-gradient(179deg, rgba(1, 1, 2, 0.00) 37.52%, rgba(1, 1, 2, 0.41) 95.35%), url('./../img/banner/banner_img.png') 50% 0% / cover no-repeat;
+
+    padding: 0px 0px 166px;
+    margin-bottom: 140px;
+}
+
+.header_top {
+    padding: 32px 0;
+    background-color: $footer_header;
+}
+
+.header__container {
+    padding: 0 10px;
+}
+
+.header__logo {
+    height: 60px;
+    width: 60px;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+    margin-left: 48px;
+}
+
+a img.header__actions-search,
+a img.header__actions-cart {
+    &:hover {
+        fill: $accent;
+    }
+}

@@ -1,0 +1,74 @@
+.footer {
+    color: $white;
+    background-color: $footer_header;
+
+    text-align: center;
+
+    padding: 32px 0 33px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 82px;
+    margin-bottom: 72px;
+}
+
+.footer__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.footer__logo {
+    width: 60px;
+    height: 60px;
+
+    top: 0;
+}
+
+.footer__link {
+    color: $white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.footer__form {
+    position: relative;
+
+    width: 328px;
+    margin-left: auto;
+}
+
+.send__email {
+    height: 72px;
+    width: 328px;
+
+    border-radius: 36px;
+    padding: 22px 28px;
+
+    background: $footer_header;
+}
+
+.send__email-btn {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: $accent;
+
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $accent-hover;
+    }
+}

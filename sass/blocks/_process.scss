@@ -1,0 +1,22 @@
+.process__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.process__item {
+    font-size: 24px;
+    font-family: $font-accent;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.process__text {
+    margin-right: 12px;
+    color: $accent;
+}
+
+.process__img {
+    display: block;
+    margin-top: 24px;
+}

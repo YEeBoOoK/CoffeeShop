@@ -1,0 +1,45 @@
+.cta__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+
+    background-color: $footer_header;
+    min-height: 530px;
+    width: 100%;
+
+    padding: 85px 80px 86px 80px;
+
+}
+
+.cta__img-container {
+    width: 40%;
+    text-align: right;
+}
+
+.cta__info {
+    width: 63%;
+}
+
+.cta__img {
+    max-height: 100%;
+    // height: 359px;
+    width: auto;
+}
+
+.cta__title {
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.cta__text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: $font-main;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 180%;
+    /* 28.8px */
+    text-transform: capitalize;
+
+    margin-bottom: 36px;
+}

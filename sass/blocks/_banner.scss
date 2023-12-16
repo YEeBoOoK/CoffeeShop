@@ -1,0 +1,38 @@
+.banner-section {
+    max-height: 1126px;
+
+    padding: 147px 0 166px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__info {
+    max-width: 530px;
+}
+
+.banner__title {
+    padding-top: 147px;
+}
+
+.banner__description {
+    line-height: 180%;
+    font-size: 20px;
+    text-transform: capitalize;
+
+    margin-bottom: 64px;
+}
+
+.banner__btn {
+    padding: 24px 40px;
+}
+
+.banner-video__btn {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    height: 110px;
+}
